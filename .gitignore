@@ -1,0 +1,28 @@
+# --- Python & Environment ---
+# Keeps your heavy library folders out of GitHub
+ml-env/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Data & Models ---
+# Large datasets should usually be downloaded, not committed
+*.csv
+*.xlsx
+*.json
+# Trained model files can be large
+*.pkl
+*.h5
+*.pth
+*.joblib
+
+# --- IDE & System ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Streamlit ---
+.streamlit/
